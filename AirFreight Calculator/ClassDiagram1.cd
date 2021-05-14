@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AirFreight_Calculator.Piece" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAABAAAAAAAQBA=</HashCode>
+      <FileName>Cargo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.CargoItem" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAACkCAAAAIBAABEAAAAgAAAAAAAAAAACIAMAACI=</HashCode>
+      <FileName>Cargo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.AirCargo" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAABgAiAAaABAgAAAAAIABAIQgAAFCoAYAIACAEw=</HashCode>
+      <FileName>Cargo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.Connect" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABACAAAAAAAAAAAAAAAAAAAAggAAAI=</HashCode>
+      <FileName>Connect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.Destination" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAEAAAAAAAAAEAAAAAAAAgAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Destination.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.Form1" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQgGAAAACAAIAIAAECABAACAAACAQAAAAYIAEBACEA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.Amount" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAEAAAIACAAAQQ4AWAAgAAAAAAAIAAAAAAAAAAByA=</HashCode>
+      <FileName>Freight.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AirFreight_Calculator.Rate" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAACAAIAAAAQAAAAAAAAAAAAAAAAAgEAA=</HashCode>
+      <FileName>Freight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.Charge" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAACAAAAAAAAAAAAAAAAgACACAAAAAAAAAA=</HashCode>
+      <FileName>Freight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.AirFreight" Collapsed="true">
+    <Position X="2.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAABAAAAAAAAQAAAAAAASAAAQAAAAACAAQAAAAAA=</HashCode>
+      <FileName>Freight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.Program" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.Shipment" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAEAAAAAAAAAAAAABAAAAQAAAAAA=</HashCode>
+      <FileName>Shipment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.UC_AirCargo" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>u/7EUfx2mbdg8rq8P9+Q3plbK0lHCnjnGSGjDz1cjq4=</HashCode>
+      <FileName>UC_AirCargo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.UC_CargoItem" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oCmBYGTgETCAKxqoFQSxzLJKBAcDQg0FAY8DBEqEiEY=</HashCode>
+      <FileName>UC_CargoItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.Properties.Resources" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.Properties.Settings" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

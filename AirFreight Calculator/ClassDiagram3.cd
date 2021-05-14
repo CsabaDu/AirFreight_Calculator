@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="FullSignature">
+  <Class Name="AirFreight_Calculator.Piece" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAABAAAAAAAQBA=</HashCode>
+      <FileName>Cargo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.CargoItem" Collapsed="true">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="AirFreight_Calculator.CargoItem.AirCraftType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Cargo.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="AirFreight_Calculator.CargoItem.CrossSectType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Cargo.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="AirFreight_Calculator.CargoItem.CrossSect" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Cargo.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAIAAADkCAAAAIBAABEAAAAgAAAAAAAAAAACYAMAACI=</HashCode>
+      <FileName>Cargo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.AirCargo" Collapsed="true">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="AirFreight_Calculator.AirCargo.HandlingType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Cargo.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Class Name="AirFreight_Calculator.AirCargo.DGR" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Cargo.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QAAAAAAgAiAAaABAgAAAAAIABAIQgAAFCoAYAIACAEw=</HashCode>
+      <FileName>Cargo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.Destination" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAEAAAAAAAAAEAAAAAAAAgAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Destination.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.Form1" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAGAAAACAAAAIAAECAhAACACACAQAAAAYIAEAACEA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.Amount" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAAEABAIACAAAAQ4AWAAgAAAAAAAIAAAAAAQAAAByA=</HashCode>
+      <FileName>Freight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.Rate" Collapsed="true">
+    <Position X="4.5" Y="3" Width="1.5" />
+    <InheritanceLine Type="AirFreight_Calculator.Amount" ManuallyRouted="true">
+      <Path>
+        <Point X="4.25" Y="2.441" />
+        <Point X="4.25" Y="2.727" />
+        <Point X="5.25" Y="2.727" />
+        <Point X="5.25" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>IAAgAgAAAQAAAGAAIAAABQACARAAAACAAAAAAAAAEAA=</HashCode>
+      <FileName>Freight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.Lumpsum" Collapsed="true">
+    <Position X="2.5" Y="4.25" Width="1.5" />
+    <InheritanceLine Type="AirFreight_Calculator.Rate" ManuallyRouted="true">
+      <Path>
+        <Point X="5.25" Y="3.691" />
+        <Point X="5.25" Y="3.954" />
+        <Point X="3.25" Y="3.954" />
+        <Point X="3.25" Y="4.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Freight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.Range" Collapsed="true">
+    <Position X="6.5" Y="4.25" Width="1.5" />
+    <InheritanceLine Type="AirFreight_Calculator.Rate" ManuallyRouted="true">
+      <Path>
+        <Point X="5.25" Y="3.691" />
+        <Point X="5.25" Y="3.949" />
+        <Point X="7.25" Y="3.949" />
+        <Point X="7.25" Y="4.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAQAAAAAAAAAAAAIAAAAAABAAAAAA=</HashCode>
+      <FileName>Freight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.Flat" Collapsed="true">
+    <Position X="4.5" Y="4.25" Width="1.5" />
+    <InheritanceLine Type="AirFreight_Calculator.Rate" ManuallyRouted="true">
+      <Path>
+        <Point X="5.25" Y="3.691" />
+        <Point X="5.25" Y="4.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Freight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.BasicFlat" Collapsed="true">
+    <Position X="2.5" Y="5.5" Width="1.5" />
+    <InheritanceLine Type="AirFreight_Calculator.Flat" ManuallyRouted="true">
+      <Path>
+        <Point X="5.25" Y="4.941" />
+        <Point X="5.25" Y="5.207" />
+        <Point X="3.25" Y="5.207" />
+        <Point X="3.25" Y="5.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Freight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.MinFlat" Collapsed="true">
+    <Position X="4.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Freight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.Quantity" Collapsed="true">
+    <Position X="6.5" Y="5.5" Width="1.5" />
+    <InheritanceLine Type="AirFreight_Calculator.Flat" ManuallyRouted="true">
+      <Path>
+        <Point X="5.25" Y="4.941" />
+        <Point X="5.25" Y="5.178" />
+        <Point X="7.25" Y="5.178" />
+        <Point X="7.25" Y="5.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Freight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.MinQty" Collapsed="true">
+    <Position X="6.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Freight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.Charge" Collapsed="true">
+    <Position X="2.5" Y="3" Width="1.5" />
+    <InheritanceLine Type="AirFreight_Calculator.Amount" ManuallyRouted="true">
+      <Path>
+        <Point X="4.25" Y="2.441" />
+        <Point X="4.25" Y="2.72" />
+        <Point X="3.25" Y="2.72" />
+        <Point X="3.25" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Freight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.Program" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.Shipment" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAEAAAAAAAAAAAAABAAAAQAAAAAA=</HashCode>
+      <FileName>Shipment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.UC_CargoItem" Collapsed="true">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCmBYGRgETCAKxqoFQSxzDJKBAcDQg0FAYcDBEqEiEY=</HashCode>
+      <FileName>UC_CargoItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.Properties.Resources" Collapsed="true">
+    <Position X="6.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.Properties.Settings" Collapsed="true">
+    <Position X="6.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.Connect" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABACAAAAAAAAAAAAAAAAAAAAggAAAI=</HashCode>
+      <FileName>Connect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirFreight_Calculator.UC_AirCargo" Collapsed="true">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>s/7EEfhmubeg8jqoPt6Q3gkbK0lHinjnGSGjDz1cDo4=</HashCode>
+      <FileName>UC_AirCargo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
